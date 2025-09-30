@@ -6,7 +6,7 @@ main
 jobs:
   deploy:
     name: Deploy to EC2
-    runs-on: Linux-latest
+    runs-on: Linux
     steps:
 name: Checkout the files
       uses: actions/checkout@v3
