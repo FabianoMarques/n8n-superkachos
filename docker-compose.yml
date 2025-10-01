@@ -46,7 +46,7 @@ services:
     image: n8nio/n8n:latest
     platform: linux/amd64
     environment:
-      WEBHOOK_URL: http://ec2-18-231-172-96.sa-east-1.compute.amazonaws.com:5678/
+      WEBHOOK_URL: http://ec2-54-233-24-155.sa-east-1.compute.amazonaws.com:5678/
       N8N_HOST: host.docker.internal
       GENERIC_TIMEZONE: America/Sao_Paulo
       N8N_LOG_LEVEL: debug
